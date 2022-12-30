@@ -1,0 +1,89 @@
+:root{
+    --color-1:hsl(25, 97%, 53%);
+    --color-2: hsl(0, 0%, 100%);
+    --color-3: hsl(217, 12%, 63%);
+    --color-4: hsl(216, 12%, 54%);
+    --color-5:hsl(213, 19%, 18%);
+    --color-6:hsl(216, 12%, 8%);
+}
+
+html{
+    font-size:100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color: var(--color-6);
+}
+
+main{
+    
+    padding:5px;
+}
+
+.container{
+    width:100%;
+    color:var(--color-2);
+    margin:40%;
+}
+
+h1{
+    font-size:1.2rem;
+}
+
+p{
+    font-size: 0.6rem;
+    line-height:1.5;
+    color:var(--color-3);
+}
+/*RATING STATE*/
+#rating-state{
+    background-color: var(--color-5);
+    border-radius:10px;
+    padding:10px;
+    height:auto;
+    margin-bottom: 20px;
+    width:300px;
+}
+
+#rating-state > svg{
+    background-color:var(--color-6);
+    width:25px;
+    padding:3px;
+    height:auto;
+    border-radius: 10px;  
+}
+
+.btn{
+    background-color:var(--color-6);
+    margin:2%;
+    display:inline-block;
+    width:35px;
+    text-align: center;
+    padding:5px;
+    border-radius: 11px; 
+}
+
+button{
+    width:90%;
+    background-color: var(--color-1);
+    border:none;
+    border-radius: 10px;
+    padding:6px;
+    color:var(--color-2);
+    margin:10px;
+
+}
+/*END OF RATING STATE*/
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  
