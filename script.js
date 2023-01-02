@@ -3,7 +3,7 @@ const mainContainer = document.querySelector(".container");
  const btn = document.getElementById("n-1");
  const rates = document.querySelectorAll(".btn");
  const rating = document.querySelector(".rating");
- /*const rateAgain = document.getElementById("n-2");*/
+ 
  
  btn.addEventListener("click", () =>{
     thankYou.classList.remove("hidden");
@@ -16,7 +16,3 @@ const mainContainer = document.querySelector(".container");
     })
  });
 
-/*rateAgain.addEventListener("click", () =>{
-    mainContainer.style.display ="block";
-    thankYou.classList.add("hidden");
-})*/

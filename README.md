@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [frontend mentor]https://www.frontendmentor.io/solutions/interactive-rating-component--vubv0eTFA
+- Live Site URL: [github]https://omoh123.github.io/interactive-rating-component/
 
 ## My process
 
@@ -54,11 +54,9 @@ selecting and changing elements with javascript
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@praise]https://www.frontendmentor.io/profile/Omoh123
+- Twitter - [@omogiate praise]https://twitter.com/OmogiatePraise
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I want to give a special thanks to the user whose code helped me alot with the completion of this project- https://github.com/MFega
