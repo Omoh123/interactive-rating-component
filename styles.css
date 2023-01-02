@@ -121,9 +121,6 @@ p, .btn, .btn-1{
 .remark{
     padding:1%;
     width:max-content;
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
     text-align: center;
     border-radius: 15px;
     margin: 5px 25%;
