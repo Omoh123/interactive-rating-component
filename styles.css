@@ -1,49 +1,55 @@
+@import
+url(https://fonts.google.com/specimen/Overpass);
+
 :root{
     --color-1:hsl(25, 97%, 53%);
     --color-2: hsl(0, 0%, 100%);
     --color-3: hsl(217, 12%, 63%);
     --color-4: hsl(216, 12%, 54%);
     --color-5:hsl(213, 19%, 18%);
-    --color-6:hsl(216, 12%, 8%);
+    --color-6:hsl(216, 12%, 30%);
+    --color-7:hsl(216, 12%, 8%);
 }
 
-html{
-    font-size:100%;
-    box-sizing: border-box;
-}
 
-*, *::before, *::after{
+
+/*, *::before, *::after{
     box-sizing: inherit;
-}
+}*/
 
 body{
     margin:0px;
     padding:0px;
-    background-color: var(--color-6);
-}
-
-main{
-    
-    padding:5px;
-}
-
-.container{
-    width:100%;
+    background-color: var(--color-7);
     color:var(--color-2);
-    margin:40%;
+    font-family: overpass;
+    /*margin:20%;*/
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
     font-size:1.2rem;
 }
 
-p{
+p, .btn, .btn-1{
     font-size: 0.6rem;
     line-height:1.5;
     color:var(--color-3);
+    font-weight:800;
 }
-/*RATING STATE*/
-#rating-state{
+
+/*START OF RATING STATE*/
+.container{
+    display:block;
+    
+}
+
+
+#rating-state, .thank_you{
     background-color: var(--color-5);
     border-radius:10px;
     padding:10px;
@@ -52,12 +58,14 @@ p{
     width:300px;
 }
 
-#rating-state > svg{
+.image{
     background-color:var(--color-6);
     width:25px;
-    padding:3px;
+    padding:10px;
     height:auto;
-    border-radius: 10px;  
+    border-radius: 50%;
+    display:flex;
+    place-content: center; 
 }
 
 .btn{
@@ -67,22 +75,90 @@ p{
     width:35px;
     text-align: center;
     padding:5px;
-    border-radius: 11px; 
+    border-radius: 11px;
+    border-style: none;
+    cursor:pointer;
 }
 
-button{
+.btn:hover{
+    background-color: var(--color-1);
+}
+
+.btn:focus{
+    background-color: var(--color-4);
+}
+
+.btn-1{
     width:90%;
     background-color: var(--color-1);
     border:none;
-    border-radius: 10px;
+    border-radius: 15px;
     padding:6px;
     color:var(--color-2);
     margin:10px;
-
+    letter-spacing: 3px;
 }
+
+.btn-1:hover{
+    background-color: var(--color-2);
+    color: var(--color-1);
+    cursor: pointer;
+}
+
+
+
+
 /*END OF RATING STATE*/
 
+/*START OF THANK YOU STATE*/
+.hidden{
+    display:none;
+}
 
+#img-2{
+    width:auto;
+    height:auto;
+     background-color: var(--color-5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remark{
+    padding:1%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5px 25%;
+    background-color: var(--color-7);
+    color:var(--color-1);
+}
+
+.rating{
+    margin: 0 5px;
+}
+
+#cnt{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#cnt p{
+    margin:5px 0px;
+    font-size: 0.6rem;
+    padding:0 8px;
+    text-indent: 8px;
+    font-weight: 200;
+}
+
+#cnt h1{
+    margin-bottom: -2px;
+}
 
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }

@@ -1,11 +1,10 @@
-/*const mainContainer = document.querySelector(".main-container");
- const thankYou = document.querySelector(".thankyou-container");
- const btn = document.getElementById("btn");
- const rates = document.querySelectorAll(".no");
+const mainContainer = document.querySelector(".container");
+ const thankYou = document.querySelector(".thank_you");
+ const btn = document.getElementById("n-1");
+ const rates = document.querySelectorAll(".btn");
  const rating = document.querySelector(".rating");
- const rateAgain = document.getElementById("rate-again")
-
-
+ /*const rateAgain = document.getElementById("n-2");*/
+ 
  btn.addEventListener("click", () =>{
     thankYou.classList.remove("hidden");
     mainContainer.style.display = "none";
@@ -17,7 +16,7 @@
     })
  });
 
-rateAgain.addEventListener("click", () =>{
+/*rateAgain.addEventListener("click", () =>{
     mainContainer.style.display ="block";
     thankYou.classList.add("hidden");
 })*/
